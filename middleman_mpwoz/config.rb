@@ -8,6 +8,9 @@ require 'susy'
 # Slim templating engine
 require 'slim'
 
+# LiveReload in middleman
+activate :livereload
+
 # Change Compass configuration
 # compass_config do |config|
 #   config.output_style = :compact

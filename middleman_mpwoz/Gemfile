@@ -2,6 +2,13 @@ source 'https://rubygems.org'
 
 gem "middleman", "~> 3.0.13"
 
+# Unsatisfied dependency before?
+gem 'rb-inotify', '~> 0.9'
+
+# Live reloading on source change
+gem "middleman-livereload"
+
+# Templating engine
 gem "slim"
 
 # Compass plugins

@@ -3,6 +3,7 @@
 //
 
 @import "compass"
+@import "compass/typography/lists/horizontal-list"
 @import "h5bp"
 
 // HTML5 Boilerplate Styles
@@ -16,11 +17,19 @@
 // @import "grid/fixed"
 @import "grid/magic"
 
+$base-color: #E1CAAB
+$base-color: #e9e9e9
+$text-color: #17455C
+$darktext-color: #012326
+$highlight-color: #fa4913
+
 // Your own styles go here.
 h1
-  color: #999
-  text-transform: uppercase
+  color: $text-color
+  font-size: 48px
+  font-family: 'Lobster', cursive
   line-height: 1em
+  font-weight: normal
 h2
   line-height: 1.3em
 kbd
@@ -31,11 +40,26 @@ footer
   margin-top: 3em
   text-align: right
 
+
+body
+  background: $base-color
+
+
 .container
   // Force images to scale down to their container widths.
   img
     max-width: 100%
     height: auto
+
+.homelinks 
+  ul
+    +horizontal-list
+    li
+      a, a:visited
+        text-decoration: none
+        font-size: 48px
+        font-family: 'Lobster', cursive
+        color: $highlight-color
 
 
 // H5BP helper classes & mixins.
