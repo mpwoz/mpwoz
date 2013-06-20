@@ -11,6 +11,16 @@ require 'slim'
 # LiveReload in middleman
 activate :livereload
 
+# Blogging extension middleman-blog
+activate :blog do |blog|
+  blog.prefix = "blog"
+  blog.permalink = "blog/:year/:title.html"
+end
+
+# No .html extension
+activate :directory_indexes
+
+
 # Change Compass configuration
 # compass_config do |config|
 #   config.output_style = :compact

@@ -8,6 +8,9 @@ gem 'rb-inotify', '~> 0.9'
 # Live reloading on source change
 gem "middleman-livereload"
 
+# Blogging extension
+gem "middleman-blog"
+
 # Templating engine
 gem "slim"
 
