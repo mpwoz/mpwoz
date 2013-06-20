@@ -14,7 +14,7 @@ activate :livereload
 # Blogging extension middleman-blog
 activate :blog do |blog|
   blog.prefix = "blog"
-  blog.permalink = "blog/:year/:title.html"
+  blog.permalink = ":year/:title.html"
 end
 
 # No .html extension
