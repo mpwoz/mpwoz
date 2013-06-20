@@ -6,10 +6,13 @@ tags: first, blog
 
 This is a test post
 ---
-some text
+This is some code, bear with me as I
+figure out formatting
 
 
 ```python
-s = "Python syntax"
-print s
+def f(self, abc):
+  s = "Python syntax"
+  s = 3 + 4 - s
+  print s
 ```

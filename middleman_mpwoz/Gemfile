@@ -11,6 +11,10 @@ gem "middleman-livereload"
 # Blogging extension
 gem "middleman-blog"
 
+# syntax highlighting using pygments
+gem "middleman-syntax"
+gem "redcarpet"
+
 # Templating engine
 gem "slim"
 

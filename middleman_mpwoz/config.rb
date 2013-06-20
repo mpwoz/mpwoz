@@ -8,14 +8,21 @@ require 'susy'
 # Slim templating engine
 require 'slim'
 
-# LiveReload in middleman
-activate :livereload
-
 # Blogging extension middleman-blog
 activate :blog do |blog|
   blog.prefix = "blog"
   blog.permalink = ":year/:title.html"
 end
+
+# middleman-syntax highlighting extension
+activate :syntax, lineanchors: 'line'
+
+# Change .md preprocessor to support fenced code blocks
+set :markdown_engine, :redcarpet
+set :markdown, fenced_code_blocks: true
+
+# LiveReload in middleman
+activate :livereload
 
 # No .html extension
 activate :directory_indexes
