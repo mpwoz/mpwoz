@@ -11,15 +11,21 @@ require 'slim'
 # Blogging extension middleman-blog
 activate :blog do |blog|
   blog.prefix = "blog"
-  blog.permalink = ":year/:title.html"
+  blog.permalink = ":year-:month-:day-:title"
+  blog.default_extension = ".markdown"
 end
 
+
+set :markdown_engine, :redcarpet
+set :markdown,  :fenced_code_blocks => true,
+                :autolink => true,
+                :smartypants => true
 
 
 # LiveReload in middleman
 activate :livereload
 
-# No .html extension
+# Pretty urls
 activate :directory_indexes
 
 

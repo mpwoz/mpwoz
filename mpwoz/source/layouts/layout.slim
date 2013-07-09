@@ -6,11 +6,14 @@ html
     
     / Use title if it's in the page YAML frontmatter 
     title
-      = data.page.title || "The Middleman"
+      = data.page.title || "Martin Wozniewicz"
     
-    == stylesheet_link_tag "normalize", "all"
-    == javascript_include_tag "all"
+    == stylesheet_link_tag "normalize"
+    / == stylesheet_link_tag "all"
+    / == javascript_include_tag "all"
   
   body class="#{data.page.classes}"
+    == partial "header"
     == yield
+    == partial "footer"
 
