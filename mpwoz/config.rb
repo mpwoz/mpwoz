@@ -3,9 +3,27 @@
 ###
 
 # Susy grids in Compass
-# First: gem install susy
-# require 'susy'
+require 'susy'
 
+# Slim templating engine
+require 'slim'
+
+# Blogging extension middleman-blog
+activate :blog do |blog|
+  blog.prefix = "blog"
+  blog.permalink = ":year/:title.html"
+end
+
+
+
+# LiveReload in middleman
+activate :livereload
+
+# No .html extension
+activate :directory_indexes
+
+
+#
 # Change Compass configuration
 # compass_config do |config|
 #   config.output_style = :compact
@@ -14,6 +32,7 @@
 ###
 # Page options, layouts, aliases and proxies
 ###
+
 
 # Per-page layout changes:
 #
