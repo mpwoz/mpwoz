@@ -8,12 +8,21 @@ html
     title
       = data.page.title || "Martin Wozniewicz"
     
-    == stylesheet_link_tag "normalize"
+    == stylesheet_link_tag "skeleton/base", "skeleton/layout", "skeleton/skeleton", "style"
     / == stylesheet_link_tag "all"
     / == javascript_include_tag "all"
   
   body class="#{data.page.classes}"
-    == partial "header"
-    == yield
-    == partial "footer"
-
+    .container.main-content
+      .row.header
+        .sixteen.columns
+          ul.nav-links
+            li
+              == link_to "Martin Wozniewicz", "/"
+            li
+              == link_to "About", "/about"
+            li
+              == link_to "Blog", "/blog"
+            li
+              == link_to "Projects", "/projects"
+        == yield

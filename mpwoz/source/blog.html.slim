@@ -2,16 +2,17 @@
 title: Martin Wozniewicz
 ---
 
-.welcome
-  h1 Articles
+.row
+  .eight.columns
+    h1 Articles
 
-  - blog.articles.each do |article|
-    article
-      h3
-        a href=article.url 
-          == article.title
-      == article.date.strftime('%b %e, %Y')
-      p
-        == article.data.teaser
+    - blog.articles.each do |article|
+      article
+        h3
+          a href=article.url 
+            == article.title
+        == article.date.strftime('%b %e, %Y')
+        p
+          == article.data.teaser
 
 
