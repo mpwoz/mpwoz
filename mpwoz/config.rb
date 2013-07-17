@@ -2,6 +2,10 @@
 # Compass
 ###
 
+# Custom helper methods
+require 'lib/custom_helpers.rb'
+helpers CustomHelpers
+
 # Susy grids in Compass
 require 'susy'
 

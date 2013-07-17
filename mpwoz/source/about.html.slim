@@ -1,8 +1,26 @@
 ---
-title: About Martin
+title: About
 ---
 
+
 .row
-  div class="four columns"
-    h1 About page
+  .eight.columns
+    | I'm a software developer on his last year at the University of Illinois at Urbana-Champaign, studying computer science. 
+    | I love creating software that others will use, and my interests range from web development to machine learning. 
+
+
+.row
+  .one-third.column
+    h3 Contact
+    ul
+      li
+        == link_to "martin.woz@gmail.com", "mailto:martin.woz@gmail.com"
+      li 
+        == link_to "LinkedIn", "http://linkedin.com/pub/martin-wozniewicz/31/56b/b1"
+      li 
+        == link_to "Github", "http://github.com/mpwoz"
+  .one-third.column
+    h3 Resume
+    == link_to "Resume", "/static/Martin_Wozniewicz_Resume.pdf"
+    
 

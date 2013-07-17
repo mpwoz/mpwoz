@@ -1,26 +1,22 @@
 ---
-title: Hello
+title: Hello, World
 date: 2013-07-09 03:19 UTC
 tags:
 ---
 
-Id earum deleniti qui vitae quae accusamus repellat accusamus dolor corrupti sed rerum repellendus. dolor cum et corrupti rem nostrum. voluptates magnam qui est et vero minus. rerum consequatur inventore tenetur sunt velit. numquam est et molestiae est
 
-Cupiditate aut omnis voluptas ipsum rem consequatur accusamus sunt ut voluptatibus quidem in temporibus aut. sequi et provident qui iste minus consequatur consectetur non ipsa vel nihil omnis. aut ut qui occaecati et quod ratione sint temporibus impedit nam itaque. culpa commodi dolores atque. nostrum nulla praesentium autem dolor dolorum
+Welcome to the redesigned mpwoz.com! 
 
-Qui eligendi odio cumque ut minus magni. perspiciatis omnis et incidunt iste iusto rerum recusandae nihil laudantium. sed blanditiis quam dolor officia aliquam quia quo veniam ut deserunt consectetur ratione repellendus. dicta eos perspiciatis doloribus id itaque
+It was created using [Middleman](http://middlemanapp.com), the static site generator.
+For a while I didn't know about static generators, and searched for a solution that
+would allow for rapid, convenient development without the overhead of a database-backed
+framework. Middleman fills that role. 
 
-Labore omnis debitis id et ea quam consequatur est maiores quam beatae possimus similique. error id nam vel dicta minima iste quas error aut aut itaque earum eos dolores. vero et magni laborum deserunt ea molestiae occaecati quia in aut aut qui
+Using a combination of Ruby, Coffeescript, [Slim](http://slim-lang.org), and [Sass](sass-lang.org),
+development was a pleasure and the result is a static site that any old web server can host!
 
-Nihil laborum iure officia quo fugit incidunt pariatur incidunt maiores molestias ratione. porro et culpa debitis sed atque et aliquam sapiente magni libero iste perferendis. unde vel voluptatum dolore magnam debitis quaerat ex rerum blanditiis non est. recusandae cumque expedita quo voluptatibus quas ea sint nihil repudiandae doloribus beatae iure. eos doloremque deserunt quia sed iure porro aut mollitia. numquam labore impedit doloremque voluptas magni est. dolorum fugiat dolorem minima necessitatibus quam nihil expedita ab
+Look for some Middleman guides in the future as I continue to refine this site. 
 
-Qui eligendi sint inventore cumque illo ipsa voluptatum blanditiis quo aut consequatur qui. error voluptatem quis deserunt cum qui sunt quibusdam deleniti officia voluptatem repudiandae aut. et molestiae voluptatem aut quod id. hic ut eum cupiditate odit eius magni in esse deleniti veniam et soluta exercitationem
 
-Dolorum architecto aliquam doloremque voluptatibus dolores. corporis suscipit consequatur placeat velit et eos aut voluptatum cum perferendis. molestiae eos a dolor facilis excepturi qui voluptatem explicabo. sed qui provident corrupti aliquam sunt itaque et. omnis omnis praesentium qui
 
-Sit officiis ipsam qui cum aliquam. nostrum ut aspernatur ut enim. voluptas quas dicta aut qui aliquid
-
-Adipisci odio et sapiente eligendi nostrum nostrum nulla saepe. impedit ab aut natus quae laudantium voluptatibus. nemo fuga est nobis
-
-Minus esse animi voluptatem doloribus harum occaecati animi temporibus provident. laborum sit itaque qui sed aperiam quam. ex quod placeat sed et doloremque exercitationem hic qui. id autem veniam vitae voluptatem qui in. excepturi praesentium qui eum voluptates. quaerat molestias eos dolores omnis architecto
 

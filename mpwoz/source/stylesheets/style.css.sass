@@ -19,6 +19,11 @@ $padding-shift: .2em
 ul.nav-links
   +horizontal-list(1px, left)
   li
+    .active > a
+      background: white
+      padding-top: $padding
+      padding-bottom: $padding + $padding-shift
+      color: #444
     a
       font-size: 1.5em
       display: block
@@ -35,3 +40,6 @@ ul.nav-links
 
 .copyright
   color: #cccccc
+
+.blog-summary
+  margin-bottom: 5em

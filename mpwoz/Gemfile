@@ -16,3 +16,6 @@ gem "slim"
 gem 'susy', "~> 1.0.8"
 
 gem 'redcarpet'
+
+# For blog post summaries
+gem 'nokogiri'

@@ -1,18 +1,16 @@
 ---
-title: Martin Wozniewicz
+title: Blog
 ---
 
-.row
-  .eight.columns
-    h1 Articles
 
-    - blog.articles.each do |article|
-      article
-        h3
-          a href=article.url 
-            == article.title
-        == article.date.strftime('%b %e, %Y')
-        p
-          == article.data.teaser
+- blog.articles.each do |article|
+  .twelve.columns.clearfix.blog-summary
+    .four.columns.alpha
+      h3
+        a href=article.url 
+          == article.title
+      == article.date.strftime('%b %e, %Y')
+    .eight.columns.omega
+      == article.summary(250, "...")
 
 

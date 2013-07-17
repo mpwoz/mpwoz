@@ -6,7 +6,8 @@ html
     
     / Use title if it's in the page YAML frontmatter 
     title
-      = data.page.title || "Martin Wozniewicz"
+      = current_page.data.title
+      |  - Martin Wozniewicz
     
     == stylesheet_link_tag "skeleton/base", "skeleton/layout", "skeleton/skeleton", "style"
     / == stylesheet_link_tag "all"
@@ -14,15 +15,12 @@ html
   
   body class="#{data.page.classes}"
     .container.main-content
-      .row.header
-        .sixteen.columns
-          ul.nav-links
-            li
-              == link_to "Martin Wozniewicz", "/"
-            li
-              == link_to "About", "/about"
-            li
-              == link_to "Blog", "/blog"
-            li
-              == link_to "Projects", "/projects"
-        == yield
+      == partial "header"
+      .row
+        .eight.columns
+          h2 == current_page.data.title
+
+
+
+      == yield
+      == partial "footer"
