@@ -12,3 +12,6 @@
 
 # Ignore Sass' cache
 /.sass-cache
+
+# Installed gems after running 'bundle install --path vendor/'
+/vendor
