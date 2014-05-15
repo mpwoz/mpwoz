@@ -132,6 +132,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.1)
   compass-h5bp (~> 0.1.0)
   middleman (~> 3.0.13)
   middleman-blog
