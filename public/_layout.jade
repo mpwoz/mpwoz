@@ -1,10 +1,17 @@
 doctype
 html
   head
+
+    //-Skeleton layout
     link(rel="stylesheet" href="/css/skeleton/skeleton.css")
     link(rel="stylesheet" href="/css/skeleton/normalize.css")
+
+    //-Google web fonts
+    link(href='http://fonts.googleapis.com/css?family=Julius+Sans+One',rel='stylesheet',type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Crimson+Text',rel='stylesheet',type='text/css')
+
+    //-Main site style
     link(rel="stylesheet" href="/css/main.css")
+
   body
-    != partial("_includes/nav")
-    .container
-      != yield
+    != yield

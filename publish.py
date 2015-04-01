@@ -16,7 +16,7 @@ def publish():
   print "Done."
 
 def sendFiles(ftp):
-  for root, dirs, files in os.walk('build'):
+  for root, dirs, files in os.walk('www'):
     for fname in files:
       full_fname = os.path.join(root, fname)
       unprefixed_fname =  '/'.join(full_fname.split('/')[1:] ) # remove 'build' prefix

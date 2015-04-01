@@ -1,16 +1,21 @@
 
-.row
-  h4 Projects
+.container
+  .row.nav
+    != partial("_includes/nav")
 
-.row
-  each project, index in public.projects._data
-    div.project
-      h5= project.title
-      div= project.desc
-      if project.live
-        .link
-          a(href=project.live) See it live! 
-      if project.github
-        .link
-          a(href="http://github.com/#{project.github}") Source
+  .row.header
+    .header-title Projects
+    .header-caption A collection of my side projects over the years.
+
+  .row
+    each project, index in public.projects._data
+      div.project
+        h5= project.title
+        div= project.desc
+        if project.live
+          .link
+            a(href=project.live) See it live! 
+        if project.github
+          .link
+            a(href="http://github.com/#{project.github}") Source
 
