@@ -1,0 +1,38 @@
+[
+{
+  "title" : "This Site",
+  "desc"  : "The site you're on made using Harp, the static generator.",
+  "github": "mpwoz/mpwoz"
+},
+{
+  "title" : "Multisnake",
+  "desc"  : "A multiplayer remake of the classic arcade game, Snake.",
+  "github": "mpwoz/multisnake",
+  "live"  : "http://multisnake.herokuapp.com"
+},
+{
+  "title" : "Julia Set",
+  "desc"  : "A Python program to generate fractals",
+  "github": "mpwoz/julia_set"
+},
+{
+  "title" : "Wordclock",
+  "desc"  : "Listens and shows most commonly spoken words on a clock face.",
+  "live"  : "http://mpwoz.github.io/wordclock/",
+  "github": "mpwoz/wordclock" 
+},
+{
+  "title" : "Fingerpaint",
+  "desc"  : "Draw with others on a shared html5 canvas using your webcam.",
+  "github": "mpwoz/fingerpaint"
+},
+{
+  "title" : "Breakout",
+  "desc"  : "C# and XNA clone of the arcade classic brick breaker with menu, sounds, and high scores."
+},
+{
+  "title" : "Flickrscrape",
+  "desc"  : "Infinitely-tiled, searchable, creative-commons photos scraped from Flickr.",
+  "live"  : "http://flickrscroll.herokuapp.com",
+  "github": "mpwoz/flickrscroll"
+}]
