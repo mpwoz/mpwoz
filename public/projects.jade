@@ -1,17 +1,16 @@
-//-Helper to generate a project blurb
-mixin project(project)
-  h4= project.title
-  if project.live
-    div
-      a(href=project.live) See it live! 
-  if project.source
-    a(href=project.source) Source
-  else if project.github
-    a(href="http://github.com/#{project.github}") Source
-  p= project.desc
 
+.row
+  h4 Projects
 
-each project, index in public.projects._data
-  div.project
-    +project(project)
+.row
+  each project, index in public.projects._data
+    div.project
+      h5= project.title
+      div= project.desc
+      if project.live
+        .link
+          a(href=project.live) See it live! 
+      if project.github
+        .link
+          a(href="http://github.com/#{project.github}") Source
 
