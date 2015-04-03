@@ -1,6 +1,7 @@
-.one-third.column
-  a.nav-item(href="/") Home
-.one-third.column
-  a.nav-item(href="/projects.html") Projects
-.one-third.column
-  a.nav-item(href="/static/Martin_Wozniewicz_Resume.pdf", target="_blank") Resume
+.one-third.column.nav-item(class=current.path[0] == "index" ? "active" : "")
+  a(href="/") Home
+.one-third.column.nav-item(class=current.path[0] == "projects" ? "active" : "")
+  a(href="/projects.html") Projects
+.one-third.column.nav-item
+  a(href="/static/Martin_Wozniewicz_Resume.pdf", target="_blank") Resume
+

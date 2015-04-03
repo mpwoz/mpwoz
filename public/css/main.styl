@@ -1,28 +1,42 @@
+@import "_nib"
+
+/*Font families for the entire site*/
+headFont = 'Julius Sans One', sans-serif
+bodyFont = 'Crimson Text', serif
+
+html
+  font-size: 1rem
+  //background: url(/img/seattle2.jpg) no-repeat center center fixed
+  //background-size: cover
+
 .header
-  vertical-margin = 10rem
+  vertical-margin = 5em
   margin-top:    vertical-margin
   margin-bottom: vertical-margin
 
 .header-title
-  font-size: 4rem
-  font-family: 'Julius Sans One', sans-serif
+  font-family: headFont
 
 .header-caption
-  font-size: 2rem
-  font-family: 'Crimson Text', serif
+  font-family: bodyFont
 
 body
-  background-color: #fff
-  font-family: 'Crimson Text', serif
+  text-align: center
+  font-family: bodyFont
+  //color: white
 
-h1, h2, h3, h4
-  font-family: 'Julius Sans One', sans-serif
+h1, h2, h3, h4, h5
+  font-family: headFont
 
-.nav-item
-  font-size: 2rem
-  display: block
+.nav-item.active > a
+  color: black
 
 .project
   margin-bottom: 50px
-  /*background-color: #f5f5f5*/
+
+
+.spaced-link
+  margin-right: 1em
+
+  
 

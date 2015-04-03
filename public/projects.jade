@@ -4,18 +4,18 @@
     != partial("_includes/nav")
 
   .row.header
-    .header-title Projects
-    .header-caption A collection of my side projects over the years.
+    h2.header-title Projects
+    p.header-caption A collection of my side projects over the years.
 
-  .row
-    each project, index in public.projects._data
-      div.project
-        h5= project.title
-        div= project.desc
+  each project, index in public.projects._data
+    .project
+      .row
+        .u-full-width
+          h4= project.title
+          div= project.desc
+      .row
         if project.live
-          .link
-            a(href=project.live) See it live! 
+          a(href=project.live).spaced-link See it live! 
         if project.github
-          .link
-            a(href="http://github.com/#{project.github}") Source
+          a(href="http://github.com/#{project.github}").spaced-link Source
 
